@@ -13,15 +13,15 @@
         <activity android:name=".FrameLayoutActivity" />
         <activity android:name=".GridLayoutActivity" />
         <activity android:name=".TextViewActivity" />
-        <activity android:name=".EditViewForLoginActivity">
-
-        </activity>
+        <activity android:name=".EditViewForLoginActivity"></activity>
         <activity android:name=".ButtonActivity">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TextClockActivity"></activity>
     </application>
 
 </manifest>
