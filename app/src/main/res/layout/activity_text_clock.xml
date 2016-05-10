@@ -1,12 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.lenw.myapplication.TextClockActivity">
-
-</RelativeLayout>
+    android:gravity="center_horizontal">
+    <!-- 定义模拟时钟 -->
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!-- 定义数字时钟 -->
+    <TextClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:textColor="#f0f"
+        android:format12Hour="yyyy年MM月dd日 H:mma EEEE"
+        android:drawableEnd="@drawable/ic_launcher"/>
+    <!-- 定义模拟时钟，并使用自定义表盘、时针图片 -->
+    <AnalogClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:dial="@drawable/watch"
+        android:hand_minute="@drawable/hand"/>
+    <Chronometer
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:textColor="#ffff0000"/>
+    <Button
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动"/>
+</LinearLayout>
