@@ -13,7 +13,7 @@ import com.example.lenw.myapplication.ui.DrawView;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class CustomViewActivity extends Activity {
+public class CustomViewActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

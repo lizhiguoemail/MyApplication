@@ -1,11 +1,10 @@
 package com.example.lenw.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-public class EditViewForLoginActivity extends AppCompatActivity {
+public class EditViewForLoginActivity extends BaseActivity {
     private RadioGroup rg;
     private TextView show;
     @Override

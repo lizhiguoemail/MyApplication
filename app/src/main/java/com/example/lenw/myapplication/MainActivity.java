@@ -1,15 +1,12 @@
 package com.example.lenw.myapplication;
 
-import android.app.ActionBar;
-import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
     private LinearLayout main;
     int[] images=new int[]{
             R.drawable.java,

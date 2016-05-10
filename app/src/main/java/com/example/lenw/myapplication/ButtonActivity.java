@@ -1,13 +1,12 @@
  package com.example.lenw.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.CompoundButton;
 import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.ToggleButton;
 
- public class ButtonActivity extends AppCompatActivity {
+ public class ButtonActivity extends BaseActivity {
     private ToggleButton toggle;
      private Switch sw;
     @Override

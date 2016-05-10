@@ -1,13 +1,12 @@
 package com.example.lenw.myapplication;
 
 import android.os.SystemClock;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
 
-public class TextClockActivity extends AppCompatActivity {
+public class TextClockActivity extends BaseActivity {
     Chronometer ch;
     Button start;
     @Override

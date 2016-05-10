@@ -1,16 +1,14 @@
 package com.example.lenw.myapplication;
 
-import android.app.Activity;
 import android.os.Handler;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class FrameLayoutActivity extends Activity {
+public class FrameLayoutActivity extends BaseActivity {
     private int currentColor = 0;
     // 定义一个颜色数组
     final int[] colors = new int[] {

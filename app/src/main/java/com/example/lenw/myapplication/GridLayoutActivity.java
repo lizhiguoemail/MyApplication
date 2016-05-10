@@ -1,12 +1,10 @@
 package com.example.lenw.myapplication;
 
-import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.GridLayout;
 
-public class GridLayoutActivity extends Activity {
+public class GridLayoutActivity extends BaseActivity {
     String[] chars=new String[]{
       "7","8","9","÷",
       "4","5","6","×",
